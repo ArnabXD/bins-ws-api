@@ -1,0 +1,13 @@
+{
+    "name": "@ArnabXD/Bins-Ws-API",
+    "description": "A microservice to fetch bin details from bins.ws",
+    "keywords": [
+        "bins",
+        "api",
+        "deta"
+    ],
+    "repository": "https://github.com/ArnabXD/bins-ws-api",
+    "logo": "https://i.ibb.co/Np3JfMH/20-205558-one-punch-man-fist-one-punch-man-fist.png",
+    "success_url": "https://telegram.dog/xdbots",
+    "image": "heroku/nodejs"
+}
