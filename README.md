@@ -1,12 +1,16 @@
 # Bins-Ws-API (Unofficial)
 
-This is an unofficial API to fetch data from bins.ws
+This is an unofficial API to fetch data from [bins.ws](https://bins.ws)
+
+```
+Note: Although bins.ws looks similar to bins.su but I don't know if they have the same database or not.
+```
 
 ## Deploy
 
-| Deta                                                                   | Heroku                                                                                        |
-|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| [![Deploy](https://button.deta.dev/1/svg)](https://go.deta.dev/deploy) | [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) |
+| Deta | Heroku | Vercel |
+|---|---|---|
+| [![Deploy](https://button.deta.dev/1/svg)](https://go.deta.dev/deploy) | [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) | [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/ArnabXD/bins-ws-api) |
 
 ## API
 
@@ -56,7 +60,6 @@ Response :
 }
 ```
 
----
 
 ## Running Locally
 
@@ -69,4 +72,3 @@ $ npm start
 
 Your app should now be running on [localhost:3000](http://localhost:3000/).
 
----
