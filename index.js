@@ -1,16 +1,19 @@
 // @ts-check
 const express = require("express");
-const { binLookup } = require("@arnabxd/bin-lookup");
+// const { binLookup } = require("@arnabxd/bin-lookup");
 
 const app = express();
 
 const PORT = process.env.PORT || 3000;
 
 app.get("/api/:bin", async (req, res) => {
-  let data = await binLookup(req.params.bin, "bins.ws");
+  // let data = await binLookup(req.params.bin, "bins.ws");
   res.set("Cache-Control", "public, max-age=86400");
   res.type("application/json");
-  res.send(data);
+  res.send({
+    result: false,
+    message: "Deploy your own API instead of abusing...",
+  });
 });
 
 app.use(async (_, res) => {
