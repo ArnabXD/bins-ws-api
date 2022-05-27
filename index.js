@@ -13,6 +13,7 @@ app.get("/api/:bin", async (req, res) => {
   res.send({
     result: false,
     message: "Deploy your own API instead of abusing...",
+    repository: "https://github.com/ArnabXD/bins-ws-api"
   });
 });
 
