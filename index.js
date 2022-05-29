@@ -17,6 +17,10 @@ app.use(async (_, res) => {
   res.redirect(301, "https://github.com/ArnabXD/bins-ws-api");
 });
 
-app.listen(PORT, () => console.log(`[Server]: Running ar PORT => ${PORT}`));
+if (process.env.NODE_ENV !== "production") {
+  app.listen(PORT, () => {
+    console.log(`Listening on port ${PORT}`);
+  });
+}
 
 module.exports = app;
