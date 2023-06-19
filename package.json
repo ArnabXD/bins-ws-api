@@ -22,6 +22,6 @@
     "node": ">=14.0"
   },
   "devDependencies": {
-    "nodemon": "2.0.18"
+    "nodemon": "2.0.22"
   }
 }
