@@ -6,6 +6,10 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
+app.use(cors({
+  origin: '*'
+}))
+
 app.get("/api/:bin", async (req, res) => {
   let data = await binLookup(req.params.bin, "bins.ws");
   res.set("Cache-Control", "public, max-age=86400");
